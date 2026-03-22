@@ -313,20 +313,28 @@ font-size: 15px;
   margin-left: 590px;
   margin-top: -70px;
 }
-@media (max-width: 768px) {
-    .Box1 {
-        flex-direction: column; /* Если элементы стояли в ряд, они встанут друг под друга */
-        padding: 10px;
-    }
+@media (max-width: 480px) {
+    /* Делаем так, чтобы карточки занимали почти всю ширину экрана */
     .covers {
-        display: block; 
+        display: flex;
+        flex-direction: column; /* Выстраиваем в колонку */
+        align-items: center;    /* Центрируем */
+        gap: 20px;
     }
-    img {
-        max-width: 100%; 
-        height: auto;
-    }
+
+    /* Растягиваем баннер и убираем фиксированную ширину */
     .Banner {
-        height: auto; 
-        font-size: 18px;
+        width: 95%; 
+        height: auto;
+        margin: 0 auto;
+        flex-direction: column; /* Текст и картинка баннера встанут друг под друга */
+        padding: 20px 0;
+    }
+
+    /* Исправляем шапку (логотип и иконки) */
+    .Box1 {
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
     }
 }
