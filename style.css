@@ -12,7 +12,6 @@ height: 60px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin: 0 auto;
 padding: 0 20px;
 }
 .phone1{
@@ -33,7 +32,6 @@ padding: 0 20px;
   height: 21px;
 }
 .text{
-  width: 212px;
   height: 18px;
   font-family: sans-serif;
   font-weight: 500;
@@ -371,6 +369,38 @@ font-size: 15px;
 .End {
         margin-top: 850px; /* Это принудительно отодвинет блок вниз */
         display: block;   /* На всякий случай, если он был inline */
-        width: 100%;      /* Чтобы блок занимал всю ширину экрана */
+        width: 100%; 
+        display: flex;
+        flex-direction: column; /* Выстраиваем всё в столбик */
+        align-items: center;    /* Центрируем содержимое */
+        padding: 20px 10px;     /* Добавляем внутренние отступы */
+        height: auto;           /* Убираем фиксированную высоту, если она была */
+        gap: 20px;     /* Чтобы блок занимал всю ширину экрана */
+    }
+    .Terms_of_Service {         /* Обнуляем те самые -85px и центрируем */
+        width: 100%;            /* Пусть занимает всю ширину */
+        text-align: center;     /* Текст по центру */
+        height: auto;           /* Убираем 20.8px */
+    }
+     .Terms_of_Service2 {         /* Обнуляем те самые -85px и центрируем */ 
+        margin: 0 auto;         /* Обнуляем те самые -85px и центрируем */       /* Пусть занимает всю ширину */
+        text-align: center;     /* Текст по центру */
+        height: auto;           /* Убираем 20.8px */      /* Убираем 20.8px */
+}
+.QPICK2 {
+        margin: 0 auto;   /* Убираем все старые отступы (29px и прочие) */
+        font-size: 20px;        /* Можно чуть уменьшить шрифт для мобилки */
+        text-align: left;
+    }
+    .Servis {
+    display: flex;
+    flex-direction: column; /* Тоже в столбик для узких экранов */
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.Box1{
+  margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 }
