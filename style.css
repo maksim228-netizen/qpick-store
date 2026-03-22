@@ -1,0 +1,315 @@
+.Box1{
+width: 1110px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 auto;
+padding: 0 20px;
+}
+.phone1{
+  width: 105px;
+  height: 50px;
+}
+.phone2{
+  width: 255px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  margin-left: 100px;
+}
+.layout{
+  width: 15px;
+  height: 21px;
+}
+.text{
+  width: 212px;
+  height: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.heart{
+  width: 119.4px;
+  height: 60px;
+}
+.body2{
+  margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    background-color: #CCFF99;
+}
+.Banner{
+  width: 1110px;
+  height: 197px;
+background-color: #101010;
+border-radius: 30px;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 60px;
+overflow: hidden;
+box-sizing: border-box;
+}
+.ProMax{
+  width: 643px;
+  height: 74px;
+}
+.banner-text{
+  color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 200px;
+}
+.phone-img{
+  width: 321px;
+  height: 228px;
+  margin-right: 100px;
+  margin-top: -30px;
+}
+.body{   
+  background-color: #EAEAEA; 
+  margin: 0;
+  padding: 0;
+}
+.covers{
+  display: flex;
+    gap: 30px;              
+    margin-top: -10px;
+}
+.covers2{
+  width: 350px;
+  height: 407px;
+  background-color: white;
+  display: flex;          
+    justify-content: space-between; 
+    gap: 30px;             
+    margin-top: 30px;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.export{
+  width: 151px;
+  height: 292px;
+}
+.text1{
+  width: 112px;
+  height: 21px;
+  margin-left: 20px;
+}
+.covers4{
+  width: 69px;
+  margin-right: 1020px;
+  font-size: 20px;
+}
+.headphones{
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pensil1{
+  width: 350px;
+  height: 407px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+   border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.pensil2{
+    width: 350px;           
+    height: 407px;           
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.image{
+  width: 219px;
+  height: 237px;
+  margin-top: 20px;
+}
+.Apple{
+  width: 306px;
+  height: 68px;
+}
+.money{
+  width: 79px;
+  height: 21px;
+  margin-left: auto;
+  margin-top: -18px;
+  color: #FFCE7F;
+}
+.star{
+  width: 60px;
+  height: 22px;
+  margin-top: 25px;
+}
+.Modes{
+  width: 44px;
+  height: 18px;
+  margin-left: 249px;
+  margin-top: -45px;
+}
+.Modes2{
+  width: 132px;
+  height: 40.25px;
+  margin-top: -65px;
+  margin-left:150px ;
+}
+.Content1{
+  width: 65.17px;
+  height: 23px;
+  color: #DF6464;
+}
+.Content2{
+  width: 41.21px;
+  height: 20.13px;
+  margin-left: auto;
+  margin-top: -23px;
+  color: #DF6464;
+}
+.Content3{
+  width: 48.88px;
+height: 17.25px;
+}
+.Content4{
+  width: 46.96px;
+  height: 1.92px;
+  background: #DF6464;
+margin-top: -10px;
+}
+.signature{
+  width: 114px;
+  height: 24px;
+  margin-top: 90px;
+  margin-right: 977px;
+  font-size: 20px;
+}
+.Heart{
+  width: 20px;
+  height: 18.48px;
+  margin-right: auto;
+}
+.Wireless_headphones{
+  width: 1110px;
+  height: 455px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  justify-content: center;
+}
+.Wireless_headphones2{
+  width: 567px;
+  height: 24px;
+  font-size: 20px;
+  margin-top: 50.06px;
+  margin-right: 539px;
+}
+.pensil8{
+  width: 350px;           
+    height: 407px;           
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-top: 45px;
+}
+.End{
+  width: 1110px;
+  height: 149px;
+  background-color: #ffffff;
+  margin-top: 69px;
+  border-radius: 30px 30px 0px 0px;
+}
+.QPICK2{
+  width: 85px;
+  height: 30px;
+  margin-left: 29px;
+  margin-top: 29px;
+  font-size: 25px;
+}
+.Servis{
+  width: 427px;
+  height: 82.8px;
+  margin-left: 290px;
+  margin-top: -30px;
+}
+.basket{
+  width: 101px;
+  height: 82.8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.9px;
+}
+.basket2{
+  width: 101px;
+  height: 20.8px;
+  font-size: 17px;
+}
+.Terms_of_Service{
+  width: 152px;
+  height: 20.8px;
+  margin-left: auto;
+  margin-top: -85px;
+  font-size: 17px;
+}
+.Terms_of_Service2{
+  width: 152px;
+  height: 20px;
+  margin-left: 269px;
+  margin-top: 34.76px;
+  display: flex;
+  gap: 10px;
+}
+.box1{
+  width: 20px;
+  height: 20px;
+}
+.box2{
+  width: 28px;
+  height: 18px;
+  font-size: 15px;
+}
+.box3{
+  width: 28px;
+  height: 18px;
+  color: #FFA542;
+font-size: 15px;
+}
+.box4{
+  width: 28px;
+  height: 18px;
+  font-size: 15px;
+}
+.massandjer{
+  width: 174.1px;
+  height: 30.1px;
+  margin-left: 590px;
+  margin-top: -70px;
+}
