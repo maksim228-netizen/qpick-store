@@ -313,3 +313,20 @@ font-size: 15px;
   margin-left: 590px;
   margin-top: -70px;
 }
+@media (max-width: 768px) {
+    .Box1 {
+        flex-direction: column; /* Если элементы стояли в ряд, они встанут друг под друга */
+        padding: 10px;
+    }
+    .covers {
+        display: block; 
+    }
+    img {
+        max-width: 100%; 
+        height: auto;
+    }
+    .Banner {
+        height: auto; 
+        font-size: 18px;
+    }
+}
