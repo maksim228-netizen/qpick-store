@@ -1,3 +1,10 @@
+.body{
+    overflow-x: hidden; /* Запрещает горизонтальную прокрутку */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .Box1{
 width: 1110px;
 height: 60px;
@@ -41,22 +48,21 @@ padding: 0 20px;
     align-items: center;    
     background-color: #CCFF99;
 }
-.Banner{
-  width: 1110px;
-  height: 197px;
-background-color: #101010;
-border-radius: 30px;
-margin: 20px auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 60px;
-overflow: hidden;
-box-sizing: border-box;
+.Banner {
+  width: 321px;
+  height: 226px;
+    display: flex;
+    justify-content: space-between; /* Текст слева, картинка справа */
+    align-items: center;           /* Центрируем по вертикали */
+    background-color: #000;        /* Черный фон */
+    border-radius: 20px;           /* Закругляем углы */         /* Внутренние отступы */
+    width: 100%;
+    max-width: 1110px;             /* Ограничиваем ширину, чтобы не раздувался */          /* Центрируем сам баннер на странице */
 }
 .ProMax{
-  width: 643px;
-  height: 74px;
+  color: #fff;
+    font-size: 30px;
+    font-weight: bold;
 }
 .banner-text{
   color: white;
@@ -67,10 +73,10 @@ box-sizing: border-box;
     margin-left: 200px;
 }
 .phone-img{
-  width: 321px;
-  height: 228px;
-  margin-right: 100px;
-  margin-top: -30px;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-top: -1px;
 }
 .body{   
   background-color: #EAEAEA; 
@@ -313,28 +319,20 @@ font-size: 15px;
   margin-left: 590px;
   margin-top: -70px;
 }
-@media (max-width: 480px) {
-    /* Делаем так, чтобы карточки занимали почти всю ширину экрана */
-    .covers {
-        display: flex;
-        flex-direction: column; /* Выстраиваем в колонку */
-        align-items: center;    /* Центрируем */
-        gap: 20px;
-    }
-
-    /* Растягиваем баннер и убираем фиксированную ширину */
+@media (max-width: 768px) {
     .Banner {
-        width: 95%; 
-        height: auto;
-        margin: 0 auto;
-        flex-direction: column; /* Текст и картинка баннера встанут друг под друга */
-        padding: 20px 0;
+        flex-direction: column;    /* На телефоне текст будет НАД картинкой */
+        text-align: center;
+        padding: 20px;
+        width: 90%;
     }
 
-    /* Исправляем шапку (логотип и иконки) */
-    .Box1 {
-        width: 100%;
-        padding: 10px;
-        justify-content: space-around;
+    .ProMax p {
+        font-size: 20px;           /* Уменьшаем шрифт для телефона */
+        margin-bottom: 15px;
+    }
+
+    .phone-img img {
+        max-height: 150px;
     }
 }
