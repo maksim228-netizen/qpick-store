@@ -1,12 +1,13 @@
-.body{
-    overflow-x: hidden; /* Запрещает горизонтальную прокрутку */
-    width: 100%;
+.body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Это уберет белую полосу справа и прокрутку вбок */
 }
 
 .Box1{
-width: 1110px;
+width: 100%;           /* Занимает всю ширину на телефоне */
+    max-width: 1110px;
 height: 60px;
 display: flex;
 align-items: center;
@@ -49,7 +50,8 @@ padding: 0 20px;
     background-color: #CCFF99;
 }
 .Banner {
-  width: 321px;
+ width: 100%;           /* Занимает всю ширину на телефоне */
+    max-width: 1110px;
   height: 226px;
     display: flex;
     justify-content: space-between; /* Текст слева, картинка справа */
@@ -320,19 +322,30 @@ font-size: 15px;
   margin-top: -70px;
 }
 @media (max-width: 768px) {
-    .Banner {
-        flex-direction: column;    /* На телефоне текст будет НАД картинкой */
-        text-align: center;
-        padding: 20px;
-        width: 90%;
+    /* Контейнер для карточек */
+    .covers {
+        display: flex;
+        flex-direction: column; /* Ставим карточки друг под друга */
+        align-items: center;    /* Центрируем их */
+        gap: 20px;              /* Расстояние между ними */
     }
 
-    .ProMax p {
-        font-size: 20px;           /* Уменьшаем шрифт для телефона */
-        margin-bottom: 15px;
+    /* Сами карточки */
+    .covers2 {
+        width: 90% !important;  /* На телефоне карточка почти на весь экран */
+        margin: 0 auto;
+    }
+
+    /* Баннер */
+    .Banner {
+        flex-direction: column; /* Текст над картинкой */
+        text-align: center;
+        height: auto !important;
+        padding: 40px 20px !important;
     }
 
     .phone-img img {
-        max-height: 150px;
+        width: 70%;             /* Уменьшаем айфон, чтобы влез */
+        margin-top: 20px;
     }
 }
